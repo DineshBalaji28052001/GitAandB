@@ -43,6 +43,8 @@ public class StandAloneTest extends BaseTest {
         String confirmMessage = confirmationPage.getConfirmationMessage();
         Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
         
+       System.out.println("GitHub First");
+        
        //Close the browser
        //driver.close();
     }
