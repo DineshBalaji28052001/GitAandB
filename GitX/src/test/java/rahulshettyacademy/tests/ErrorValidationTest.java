@@ -48,6 +48,7 @@ public class ErrorValidationTest extends BaseTest {
     Assert.assertFalse(match);
     
     driver.close();
+    driver.quit();
     
 }
 }
