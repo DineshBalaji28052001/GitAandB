@@ -46,6 +46,7 @@ public class ErrorValidationTest extends BaseTest {
     
     Boolean match = cartPage.VerifyProductDisplay("ZARA COAT 33");
     Assert.assertFalse(match);
+    Sytem.out.println("Dinesh");
     
     driver.close();
     driver.quit();
